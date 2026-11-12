@@ -1,0 +1,27 @@
+# Dados reais NUNCA vão para o Git
+*.xlsx
+*.xlsm
+*.xls
+*.csv
+*.sql
+!sql/schema.sql
+!sql/migracao-*.sql
+
+# Configuração e segredos
+config/config.php
+config/*.local.php
+.env
+
+# Arquivos gerados em execução
+storage/
+uploads/
+backups/
+exportacoes/
+*.log
+
+# Sistema / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+node_modules/
